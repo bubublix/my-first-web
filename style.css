@@ -1,0 +1,60 @@
+/* Comentario one linea */
+body{
+    background: rgb(60,41,88);
+    background: linear-gradient(180deg, rgba(60,41,88,1) 0%, rgba(167,118,193,1) 100%);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    
+
+}
+
+p {
+    white-space: pre; /* Mantiene los espacios y saltos de línea */
+    
+}
+
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #351652;
+            border-radius: 25px;
+        }
+
+
+        .titulo-gif {
+            display: flex;
+            align-items: center;
+            text-decoration-line: initial;
+            color: floralwhite;
+        }
+        .titulo-gif img {
+            margin-left: 10px; /* Espacio entre el título y el GIF */
+        }
+        
+        .gifs{
+            border-radius: 50%;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            
+        }
+
+
+.airplane{
+     width: 10000px;
+     height: 10px; 
+     border-radius: 50px;
+     opacity: 0.5;
+     
+}
+
+.Traveling{
+
+    width: 100px;
+    border-radius: 100px;
+}
+
